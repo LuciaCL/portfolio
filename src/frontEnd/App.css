@@ -22,7 +22,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.App-body {
+  background-color: rgb(133, 124, 165);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,18 @@
+.Header {
+    background-color:rgb(171, 163, 240);
+}
+.Header-body {
+    background-color: rgb(179, 97, 196);
+}
+
+.Header-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 50px;
+    
+}
+.Header-links-item {
+    width: 70px;
+}
