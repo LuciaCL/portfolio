@@ -1,4 +1,10 @@
 .Projects {
-    background-color: rgb(68, 25, 110);
-    height: 500px;
+    /* background-color: rgb(68, 25, 110);*/
+   /* height: 500px;*/
+}
+.Projects-container {
+   /* background-color: black; */
+}
+.Projects-item{
+    /* background-color: grey;*/
 }

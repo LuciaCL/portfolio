@@ -1,12 +1,27 @@
 .Home {
-    background-color: rgb(213, 213, 213);
+  /*  background-color: rgb(213, 213, 213); */
     height: 500px;
 }
-.Home-body {
-    background-color: rgb(118, 113, 151);
+.Home .containerImage {
+   position: relative;
+}
+.Home .text {
+    position: absolute;
+    left: 50px;
+    font-size:4vw;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    color: black;
+}
+.Home .textImage {
+    top: 40px;
+}
+.Home .textImage2 {
+    top: 100px;
+}
+.Home .imgHomePage {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5;
 }
 
-.Home-container {
-    width: 100%;
-    height: 100%;
-}
