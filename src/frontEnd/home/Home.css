@@ -1,5 +1,4 @@
 .Home {
-  /*  background-color: rgb(213, 213, 213); */
     height: 500px;
 }
 .Home .containerImage {
@@ -22,6 +21,6 @@
 .Home .imgHomePage {
     max-width: 100%;
     height: auto;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
