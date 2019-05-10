@@ -24,3 +24,22 @@
     opacity: 0.4;
 }
 
+.Home-container{
+    display: flex;
+    flex-direction: row;
+}
+.Home-container title{
+    text-align: left;
+    color: rgb(83, 34, 228);
+}
+.Home-container summary {
+    order:1;
+    flex-basis: 60%;
+}
+.Home-container summary-text{
+    text-align: left;
+    text-anchor: 40%;
+}
+.Home-container skills {
+    order:2;
+}

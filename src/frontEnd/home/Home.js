@@ -14,8 +14,22 @@ export default function Home(props) {
                     <img className='imgHomePage' alt='Home page' src={imgHomePage}/>
                 </div>
                 <div className='Home-container'>
-                        <p>Hello world!! My name is Lucia!</p>
-                        <p>This is my Home Page</p>
+                    <div className='summary'>
+                        <h2 className='title'>Summary</h2>
+                        <p className='summary-text'>I have always considered myself a proactive and keen-on-learning person. 
+                            I believe in hard work as well as enjoy what I do, trying to do things the best and more efficient way possible.
+                           <br/> I have three years of professional experience as a software developer in banking environment. 
+                            I've worked in a variety of tasks, with very tight deadlines. 
+                            I had to deal with heterogeneous technologies daily, 
+                            switching between them quickly while keeping productivity intact.
+                            Nowadays, I want to take a step further in my career. 
+                            I joined Kodiri Bootcamp to start learning new technologies and keep myself relevant.
+                            I hope to find a job that allows me to continue this new career path.
+                        </p>
+                    </div>
+                    <div className='skills'>
+                        <h2 className='title'>Skills</h2>
+                    </div>
                 </div>
             </body>
         </div>
