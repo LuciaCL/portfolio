@@ -27,19 +27,19 @@
 .Home-container{
     display: flex;
     flex-direction: row;
+    font-family: 'Source Code Pro', monospace;
 }
-.Home-container title{
+.title{
     text-align: left;
     color: rgb(83, 34, 228);
 }
 .Home-container summary {
     order:1;
-    flex-basis: 60%;
+    flex-basis: 40%;
 }
 .Home-container summary-text{
-    text-align: left;
-    text-anchor: 40%;
+    text-align: justify;
 }
 .Home-container skills {
-    order:2;
+    padding: 10px;
 }

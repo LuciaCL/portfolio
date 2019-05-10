@@ -17,7 +17,7 @@ export default function Home(props) {
                     <div className='summary'>
                         <h2 className='title'>Summary</h2>
                         <p className='summary-text'>I have always considered myself a proactive and keen-on-learning person. 
-                            I believe in hard work as well as enjoy what I do, trying to do things the best and more efficient way possible.
+                            <br/>I believe in hard work as well as enjoy what I do, trying to do things the best and more efficient way possible.
                            <br/> I have three years of professional experience as a software developer in banking environment. 
                             I've worked in a variety of tasks, with very tight deadlines. 
                             I had to deal with heterogeneous technologies daily, 
