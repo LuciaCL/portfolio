@@ -16,7 +16,7 @@ export default function Home(props) {
                 <div className='Home-container'>
                     <div className='summary'>
                         <h2 className='title'>Summary</h2>
-                        <p className='summary-text'>I have always considered myself a proactive and keen-on-learning person. 
+                        <p className='home-container-text'>I have always considered myself a proactive and keen-on-learning person. 
                             <br/>I believe in hard work as well as enjoy what I do, trying to do things the best and more efficient way possible.
                            <br/> I have three years of professional experience as a software developer in banking environment. 
                             I've worked in a variety of tasks, with very tight deadlines. 
@@ -27,10 +27,34 @@ export default function Home(props) {
                             I hope to find a job that allows me to continue this new career path.
                         </p>
                     </div>
+
                     <div className='skills'>
                         <h2 className='title'>Skills</h2>
+
+                        <i class="fab fa-js"/><br/>
+                        <i class="fab fa-react"/><br/>
+                        <i class="fab fa-node"/><br/>
+                        <i class="fab fa-github-square"/><br/>
+                        <i class="fab fa-css3-alt"/><br/>
+
                     </div>
+                    
                 </div>
+                <div className='Education'>
+                        <h2 className='title'>Education</h2>
+                        <p className='texhome-container-textt'>
+                        Kodiri
+                            JavaScript, React.JS, GradeJunior JavaScript
+                            Dates attended 04-2019 – 05-2019
+
+                            Building a web app with Modern JavaScript ES6+, React.js, and Node.js.
+                            ● Creating kodflix(​https://kodflix-lucia.herokuapp.com/​) a web app using react.js, Modern JavaScript ES6+, HTML5, CSS3 and Node.js, mongoDB on the backEnd.
+                            ● Working in teams using agile methodologies ( StandUp, Retrospective)
+                            ● Learn how to use Git, GitHub, Heroku.
+                            ● Training JavaScript and React working on technical challenges.
+                            ● Led a seminar to the classmates about React.js
+                        </p>
+                    </div>
             </body>
         </div>
     )

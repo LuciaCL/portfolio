@@ -1,9 +1,7 @@
-.Home {
-    height: 500px;
-}
-.Home .containerImage {
+
+/* .Home .containerImage {
    position: relative;
-}
+} */
 .Home .text {
     position: absolute;
     left: 50px;
@@ -26,20 +24,38 @@
 
 .Home-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     font-family: 'Source Code Pro', monospace;
 }
-.title{
+.Home-container .title{
     text-align: left;
     color: rgb(83, 34, 228);
 }
-.Home-container summary {
-    order:1;
-    flex-basis: 40%;
-}
-.Home-container summary-text{
+.home-container-text{
     text-align: justify;
+    font-size: 20px;
 }
-.Home-container skills {
+
+.Home-container .summary {
+    order:1;
+    flex-basis: 90%;
     padding: 10px;
+}
+.Home-container .skills {
+    padding: 10px;
+}
+.Home-container .skills .i {
+    font-size: 3em;
+}
+.Home-container .fab {
+    font-size: 50px;
+    color: rgb(160, 133, 241);
+    padding: 10px;
+}
+
+.Home-container .education{
+    order:3;
+    flex-basis: 90%;
+    padding: 10px;
+    font-size: 10px;
 }
