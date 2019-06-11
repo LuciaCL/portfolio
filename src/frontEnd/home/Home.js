@@ -42,11 +42,12 @@ export default function Home(props) {
                         JavaScript, React.JS, GradeJunior JavaScript
                         Dates attended 04-2019 – 05-2019
 
-                        Building a web app with Modern JavaScript ES6+, React.js, and Node.js.
-                        ● Creating kodflix(​https://kodflix-lucia.herokuapp.com/​) a web app using react.js, Modern JavaScript ES6+, HTML5, CSS3 and Node.js, mongoDB on the backEnd.
-                        ● Working in teams using agile methodologies ( StandUp, Retrospective)
-                        ● Learn how to use Git, GitHub, Heroku.
-                        ● Training JavaScript and React working on technical challenges.
+                        Building a web app with Modern JavaScript ES6+, React.js, and Node.js.<br/>
+                        ● Creating kodflix(​https://kodflix-lucia.herokuapp.com/​) a web app using react.js, 
+                            Modern JavaScript ES6+, HTML5, CSS3 and Node.js, mongoDB on the backEnd.<br/>
+                        ● Working in teams using agile methodologies ( StandUp, Retrospective)<br/>
+                        ● Learn how to use Git, GitHub, Heroku.<br/>
+                        ● Training JavaScript and React working on technical challenges.<br/>
                         ● Led a seminar to the classmates about React.js
                     </p>
             </div>
