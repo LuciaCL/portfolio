@@ -1,12 +1,7 @@
-
-/* .Home .containerImage {
-   position: relative;
-} */
 .Home .text {
     position: absolute;
     left: 50px;
     font-size:4vw;
-    font-family: 'Source Code Pro', monospace;
     text-align: center;
     color: black;
 }
@@ -17,9 +12,25 @@
     top: 100px;
 }
 .Home .imgHomePage {
+    position: relative;
     max-width: 100%;
     height: auto;
     opacity: 0.4;
+    top:0;
+    left: 0;
+    z-index: 0;
+}
+.Home .imgMe {
+    right: 10%;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: rgb(233, 233, 233);
+    padding: 0.3%;
+    padding-bottom: 3%;
+    width: 20%;
+    float: right;
+    z-index: 10000;
 }
 
 .Home-container{
@@ -27,13 +38,14 @@
     flex-direction: row-reverse;
     font-family: 'Source Code Pro', monospace;
 }
-.Home-container .title{
+.title{
     text-align: left;
     color: rgb(83, 34, 228);
 }
 .home-container-text{
     text-align: justify;
     font-size: 20px;
+    width: 70%;
 }
 
 .Home-container .summary {
@@ -42,7 +54,8 @@
     padding: 10px;
 }
 .Home-container .skills {
-    padding: 10px;
+    padding: 30px;
+    flex-basis: 30%;
 }
 .Home-container .skills .i {
     font-size: 3em;
@@ -58,4 +71,11 @@
     flex-basis: 90%;
     padding: 10px;
     font-size: 10px;
+}
+
+.home-container-text-edu{
+    text-align: justify;
+    font-size: 20px;
+    width: 90%;
+    margin: 5%;
 }
