@@ -2,14 +2,19 @@ import React from 'react';
 import './Header.css';
 import { NavLink } from 'react-router-dom'
 
+function scrollElement(id) {
+    document.querySelector(id).scrollIntoView({
+        behavior: "smooth"
+    });
+}
 
 export default function Header() {
-    return(
+    return (
         <header>
             <ul className='Header'>
-                <li><NavLink to={'/'} className='Header-links-item'>Home</NavLink></li>
-                <li><NavLink to={'/projects'} className='Header-links-item'>Projects</NavLink></li>
-                <li><NavLink to={'/contact'} className='Header-links-item'>Contact</NavLink></li>
+                <li><NavLink to={'/'} >Home</NavLink></li>
+                <li><NavLink onClick={() => scrollElement("#projects")} to={'/projects'} >Projects</NavLink></li>
+                <li><NavLink to={'/contact'} >Contact</NavLink></li>
             </ul>
         </header>
     );

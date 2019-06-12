@@ -1,9 +1,8 @@
 .Home .text {
     position: absolute;
-    left: 50px;
     font-size:4vw;
-    text-align: center;
     color: black;
+    left: 10%;
 }
 .Home .textImage {
     top: 40px;
@@ -36,22 +35,18 @@
 .Home-container{
     display: flex;
     flex-direction: row-reverse;
-    font-family: 'Source Code Pro', monospace;
 }
-.title{
-    text-align: left;
-    color: rgb(83, 34, 228);
-}
+
 .home-container-text{
     text-align: justify;
     font-size: 20px;
-    width: 70%;
+    width: 90%;
 }
 
 .Home-container .summary {
     order:1;
-    flex-basis: 90%;
-    padding: 10px;
+    flex-basis: 100%;
+    padding: 20px;
 }
 .Home-container .skills {
     padding: 30px;
@@ -72,10 +67,6 @@
     padding: 10px;
     font-size: 10px;
 }
-
-.home-container-text-edu{
-    text-align: justify;
-    font-size: 20px;
-    width: 90%;
+.education-text{
     margin: 5%;
 }
