@@ -5,8 +5,8 @@ class Summary extends React.Component {
         return (
             <div className='Education'>
                 <h2 className='title'>Education</h2>
-                <h3>Kodiri 04-2019 05-2019</h3>
-                <h4>JavaScript, React.JS, GradeJunior JavaScript</h4>
+                <h3 className='description'>Kodiri 04-2019 05-2019</h3>
+                <h4 className='description'>JavaScript, React.JS, GradeJunior JavaScript</h4>
                 <p className='education-text'>
                         Building a web app with Modern JavaScript ES6+, React.js, and Node.js.<br />
                     ● Creating <a href='https://kodflix-lucia.herokuapp.com'>kodflix</a> a web app using react.js,

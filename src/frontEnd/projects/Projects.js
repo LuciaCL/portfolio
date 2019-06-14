@@ -8,7 +8,7 @@ export default function Home(props) {
         <div className="section projects" id="projects">
         <div className="row">
           <h2 className="title">Projects</h2>
-          <div class="card-container">
+          <div className="card-container">
             <div className="card">
               <div className="card-image">
                 <a

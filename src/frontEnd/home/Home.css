@@ -3,6 +3,7 @@
     font-size:4vw;
     color: black;
     left: 10%;
+    top: 53px;
 }
 .Home .textImage {
     top: 40px;
@@ -15,9 +16,9 @@
     max-width: 100%;
     height: auto;
     opacity: 0.4;
-    top:0;
     left: 0;
     z-index: 0;
+    top: 52px;
 }
 .Home .imgMe {
     right: 10%;
@@ -29,12 +30,13 @@
     padding-bottom: 3%;
     width: 20%;
     float: right;
-    z-index: 10000;
+    z-index: 1;
 }
 
 .Home-container{
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 15px;
 }
 
 .home-container-text{
@@ -49,7 +51,7 @@
     padding: 20px;
 }
 .Home-container .skills {
-    padding: 30px;
+    padding: 20px;
     flex-basis: 30%;
 }
 .Home-container .skills .i {
@@ -70,3 +72,13 @@
 .education-text{
     margin: 5%;
 }
+.Education .description{
+    padding-left: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    .Home-container{
+        display: flex;
+        flex-direction: column;
+    }
+  }  

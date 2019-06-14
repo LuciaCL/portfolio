@@ -5,10 +5,11 @@ import imgMe from '../imgs/me.JPG';
 import Summary from '../pages/Summary.js';
 import Education from '../pages/Education.js';
 import Projects from '../projects/Projects.js';
+import Contact from '../contact/Contact.js';
 
 export default function Home(props) {
     return (
-        <div className='Home'>
+        <div className='Home' id='home'>
             <div className='containerImage'>
                 <div className='text'>
                     <p className='textImage'>{`{Lucia Couce Lamas}`} 
@@ -39,6 +40,7 @@ export default function Home(props) {
             </div>
             <Education/>
             <Projects/>
+            <Contact/>
         </div>
     )
 }
